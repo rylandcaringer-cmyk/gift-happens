@@ -1,5 +1,5 @@
 (()=>{
-const current='16.1.0', release='Interface Refinements', key='gift-happens-last-version', changes='Compact Gift Circles selector, corrected planner labels and dynamic version display.';
+const current='16.2.0', release='Account Center', key='gift-happens-last-version', changes='New header account icon with profile, account email, notification preferences and sign-out in one place.';
 const $=id=>document.getElementById(id), notice=$('updateNotice');
 let checking=false, latest=null, mode='', dismissed=null;
 function safe(){const u=new URL(location.href);return !u.searchParams.has('recovery')&&!u.searchParams.has('code')&&!u.hash}
