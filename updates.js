@@ -1,5 +1,5 @@
 (()=>{
-const current='16.3.0', release='Refresh Protection', key='gift-happens-last-version', changes='Prevents unattended page redraws and warns before updating with unsaved edits.';
+const current='16.4.0', release='Compact Mobile Header', key='gift-happens-last-version', changes='Slimmer mobile header retains Family Chaos Edition, circle switching and account controls.';
 const $=id=>document.getElementById(id), notice=$('updateNotice');
 let checking=false, latest=null, mode='', dismissed=null;
 function safe(){const u=new URL(location.href);return !u.searchParams.has('recovery')&&!u.searchParams.has('code')&&!u.hash}
