@@ -1,5 +1,5 @@
 (()=>{
-const current='13.1.0', key='gift-happens-last-version', changes='Improved update detection on iPhone and other devices.';
+const current='14.0.0', key='gift-happens-last-version', changes='Notification Center: private circle reminders and device preferences.';
 const $=id=>document.getElementById(id), notice=$('updateNotice');
 let checking=false, latest=null, mode='', dismissed=null;
 function safe(){const u=new URL(location.href);return !u.searchParams.has('recovery')&&!u.searchParams.has('code')&&!u.hash}
