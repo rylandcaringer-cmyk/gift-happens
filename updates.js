@@ -1,5 +1,5 @@
 (()=>{
-const current='15.0.0', key='gift-happens-last-version', changes='Family Arcade: trivia, memory match and number hunt.';
+const current='16.0.0', key='gift-happens-last-version', changes='Family Competitions: shared records, daily trivia and championship rankings.';
 const $=id=>document.getElementById(id), notice=$('updateNotice');
 let checking=false, latest=null, mode='', dismissed=null;
 function safe(){const u=new URL(location.href);return !u.searchParams.has('recovery')&&!u.searchParams.has('code')&&!u.hash}
