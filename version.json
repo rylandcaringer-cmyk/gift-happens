@@ -1,1 +1,1 @@
-{"version": "16.2.0", "release": "Account Center", "notes": "New header account icon with profile, account email, notification preferences and sign-out in one place."}
+{"version": "16.3.0", "release": "Refresh Protection", "notes": "Prevents unattended page redraws and warns before updating with unsaved edits."}
